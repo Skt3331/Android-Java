@@ -25,11 +25,22 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
         Button ass2 = findViewById(R.id.button2);
         ass2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Assignment_2.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        Button loginass = findViewById(R.id.loginb);
+        loginass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Loginpage.class);
                 startActivity(intent);
                 finish();
             }
