@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">College1</string>
+    <string name="all_fields_are_required">All fields are required</string>
+
+
+        <string name="add_user">Add User</string>
+        <string name="edit_user">Edit User</string>
+        <string name="list_users">List Users</string>
+        <string name="full_name">Full Name</string>
+        <string name="email">Email</string>
+        <string name="password">Password</string>
+        <string name="confirm_password">Confirm Password</string>
+        <string name="contact_number">Contact Number</string>
+        <string name="register">Register</string>
+        <string name="save">Save</string>
+        <string name="user_registered">User registered successfully!</string>
+        <string name="user_updated">User updated successfully!</string>
+
+
+
 </resources>

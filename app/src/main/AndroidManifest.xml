@@ -13,8 +13,23 @@
         android:theme="@style/Theme.College1"
         tools:targetApi="31">
         <activity
-            android:name=".LoginPage1"
+            android:name="Assignment1.UserListActivity"
             android:exported="false" />
+        <activity
+            android:name="Assignment1.EditUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="Assignment1.AddUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="Assignment1.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".LoginPage1"
             android:exported="false" />
@@ -32,13 +47,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
